@@ -1,0 +1,57 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Python tooling / temporary artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Flutter / Dart — future use
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Android / Gradle — future use
+.gradle/
+local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS / Xcode — future use
+Pods/
+.symlinks/
+DerivedData/
+*.xcuserstate
+
+# Coverage / generated reports
+coverage/
+*.lcov
